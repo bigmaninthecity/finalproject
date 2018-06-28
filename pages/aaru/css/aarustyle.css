@@ -1,0 +1,81 @@
+@font-face {
+font-family: "Made Waffle Soft";
+src: url("css/fonts/made_waffle_soft.eot");
+src: 
+url("css/fonts/made_waffle_soft.woff") format("woff"),
+url("css/fonts/made_waffle_soft.otf") format("opentype"),
+url("css/fonts/made_waffle_soft.svg#filename") format("svg");
+}
+
+h1 {
+	font-family: 'Made Waffle Soft';
+	font-weight:normal;
+	font-style:normal;
+	margin:0px;
+	padding:0px;
+	vertical-align: baseline;
+	font-size: 32px;
+	margin-bottom: 18px;
+	color: white;
+}
+
+button {
+	font-family: 'Made Waffle Soft';
+	font-weight:normal;
+	font-style:normal;
+	margin:0px;
+	padding:0px;
+	vertical-align: baseline;
+	font-size: 10px;
+}
+
+#edit {
+	font-family: 'Made Waffle Soft';
+	font-weight:normal;
+	font-style:normal;
+	margin:0px;
+	padding:0px;
+}
+
+#delete  {
+	font-family: 'Made Waffle Soft';
+	font-weight:normal;
+	font-style:normal;
+	margin:0px;
+	padding:0px;
+}
+
+
+.space {
+	width: 100%;
+	height: 5px;
+}
+
+.logo {
+
+	width: 250px;
+	height: 250px;
+
+}
+
+html {
+	height: 100%
+}
+
+body {
+	height: 100%;
+	background: linear-gradient(to bottom, #ffffff 0%,#ffffff 85%,#EA46CC 100%);
+	margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    width:100%;
+    height:37px;
+    position:relative;
+    top:0px;
+    background-color: #EA46CC;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
